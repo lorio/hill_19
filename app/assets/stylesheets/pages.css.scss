@@ -1,0 +1,190 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$bodyBackground: #fcffef;
+
+@import "bootstrap";
+
+/* universal */
+html, body {height: 100%}
+
+body {padding-top: 0;}
+.hero-unit {
+  padding: 0;
+  background-color: #fcffef;
+  margin-bottom: 0;
+  /*h2 { 
+    margin: 0 0 0 -20px;
+  }   */
+}
+/*@import "bootstrap-responsive";*/
+/*section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}*/
+
+
+.home { 
+  color: #000066;
+  margin: 150px auto 70px;
+  }
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -60px;
+}
+#push, #footer {
+  height: 60px;
+}
+img {
+  margin-top: 230px;
+  border: 12px whiteSmoke solid;
+  outline: 1px #e3e3e3;
+  border-radius: 5px;
+  }
+.poem img {margin-top: 0;}
+.hero-unit img {
+  border: none;
+  outline: none;
+  margin-top: 130px;
+}
+.tagline {
+  width: 320px;
+  margin: 20px auto;
+  }
+.well {padding: 20px 0 0 0;}
+/* typography */
+h1 {
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #000066;
+}
+
+h2, h3, h4, h5, h6, p, li {
+  font-family: Georgia, Garamond, "Times New Roman", serif;
+  color: #000066;
+}
+.navbar .nav li a {
+  color: #08C;
+  font-size: 1.2em;
+  letter-spacing: .06em;
+  padding: 10px 30px 10px;
+  font-weight: bold;
+  &:hover {
+    color: #000066;
+  }
+}
+h4 {
+  font-size: 1.3em;
+  letter-spacing: .05em;
+}
+h2 {
+  
+  letter-spacing: .06em;
+  padding: 100px 0 50px;
+  color: #000066;
+}
+p {
+  font-size: 1.2em;
+  letter-spacing: .06em;
+  line-height: 1.7em;
+  text-align: justify;
+}
+
+.lead {
+  text-align: center;
+}
+.poem {
+  text-align: left;
+  padding-bottom: 50px;
+}
+.visual p {
+    line-height: 1.2em;
+    text-align: left;
+    //padding-left: 1em;
+}
+.spaces {
+  word-spacing: 3em;
+  //span{color: $bodyBackground}
+}
+  
+.indent {text-indent: 3em;}
+.prose {
+  padding-left: 1em;
+  margin-right: -1em;
+}
+.center {
+  text-align: center;
+}
+
+/* header */
+
+#logo {
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif; 
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #000066;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  padding-left: 30px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+  color: #08C;
+  text-decoration: none;
+  }
+}
+.nav.pull-right {padding-right: 20px}
+
+#footer p {
+  text-align: center;
+  /*text-indent: 3em;*/
+  margin-bottom: 2px;
+  /*&:nth-child(even) {
+    text-indent: 5em; 
+  } */    
+}
+.backdrop {
+  background-image: image-url('banner.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  h2 {
+    padding: 11em 0 1em 1em;
+    color: #fcffef;
+  }
+}
+h4 { font-size: 1.5em; }
+.fig {
+  padding-bottom: 10px; 
+  img {margin-top: 10px}
+}
+blockquote {
+  padding: 0;
+  p:first-child { 
+    font-style: italic;
+    letter-spacing: 0.03em;
+  }
+}
+
+@media (max-width: 543px) {
+  .home {
+        margin: 50px auto;
+   }
+  .backdrop
+    h2 {padding: 1em 0 1em 1em}
+}
+@media (min-width: 1200px) {
+  .span12 > .poem {
+    width: 1170px;
+    margin-left: 60px;
+  }
+}
+
+
