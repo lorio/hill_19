@@ -1,0 +1,25 @@
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+ 
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <%= link_to "Hillary Keel", root_path, id: "logo" %>
+      <nav>  
+      <div class="nav-collapse collapse">
+          <ul class="nav pull-right">
+            <li><%= mail_to 'hillary.keel@gmail.com', t('global.menu.contact') %></li> 
+            <li><%= link_to t('global.menu.about'), about_path %></li>
+            <li><%= link_to t('global.menu.writing'), writing_path %></li>
+            <li><%= link_to t('global.menu.hypnotherapy'), hypnotherapy_path %></li>
+            <li><%= link_to t('global.menu.languages'), languages_path %></li>          
+          </ul>        
+        </div>                
+      </nav>
+    </div>
+   </div>
+  </div>
