@@ -16,10 +16,9 @@ $lilac: #a849a3;
   margin: 0 auto;
   -webkit-transform-style: preserve-3d;
   -webkit-perspective: 400;
-}
-  .upper {width : 400px; padding-left: 30px; position : relative;}
-  .lower {width : 460px; padding-top: 3px; position : relative;}
-    li {
+  .upper {width: 400px; padding-left: 30px; position: relative;}
+  .lower {width: 460px; padding-top: 3px; position: relative;margin-left:-15px;}
+  li {
   display: inline-block;
   color: #000;
   font-weight: bold;
@@ -39,6 +38,7 @@ $lilac: #a849a3;
   -moz-box-shadow: 0px 6px 0px $lilac, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
   box-shadow: 0px 6px 0px $lilac, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);;
   -webkit-transform: rotateX(20deg);
+    }
   }
 
   /*if narrower than Xpx

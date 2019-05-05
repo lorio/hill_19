@@ -30,4 +30,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  global:
+    menu:
+      about: "About HK"
+      contact: "Contact"
+      writing: "Writing"
+      hypnotherapy: "Hypnotherapy"
+      languages: "Translation"
