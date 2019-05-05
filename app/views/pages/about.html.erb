@@ -1,2 +1,21 @@
-<h1>Pages#about</h1>
-<p>Find me in app/views/pages/about.html.erb</p>
+<%= provide(:description, 'This page is about writer, hypnotherapist, teacher, translator, editor, and proofreader Hillary Keel') %>  
+<%= provide(:keywords, 'hypnotherapy, poetry, translation, language training, German') %>
+
+<div class="row">
+  <div class="span6">
+  <header>
+  <h2><%= provide(:title, 'About Me') %>About Me</h2>
+  </header>
+  <p>MFA in Creative Writing from the Jack Kerouac School of Disembodied Poetics at Naropa University in Boulder, CO (spring 2012); BA in German/English from Mary Washington College (now University) in Fredericksburg, Virginia (spring 1982); German, French and English at the University of Vienna’s Institute for Translator and Interpreter Training (now Center for Translation Studies) (1984-1985); Seminar for Foreign Language Teachers at Waldorf Schools in Nuremberg, Germany (1994-1995); seminars with the Community of Translators in Vienna and the Vienna Poetry School in Vienna, Austria.</p>
+
+  <p>In addition, Certified Hypnotist (since 2015) with the International Association of Counselors and Therapists, trained by <a href="https://www.mindbodystudies.com">Kristin Prevallet</a> in Hastings on Hudson, NY, as well as practitioner of the Art of Channeling, trained by <a href="https://channeling-healing.com">Rhiannon Augenthaler</a> in Vienna, Austria (2008).</p>
+
+  <p>Born and raised in the United States, after many years in the German-speaking world, I continue my meditative and artistic practices by involving myself with healing and trance, by examining language, foreign language, poetry and prose.</p> 
+  <p></p> 
+  </div>  
+  <div class="pull-right">
+      <%= image_tag "hk-8.jpg" %> 
+      <p class="muted credit">Photo: <i>In a Parisian Cafe</i><br>by Sophie Gertrude Strohmeier-Keel</p>
+      <p><strong><a href="/assets/cv-hillary-18-r.pdf" target="_blank">CV (PDF)</a></strong></p>
+  </div>
+</div>
