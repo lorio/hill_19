@@ -6,14 +6,14 @@
 html, body {height: 100%}
 
 body {padding-top: 0;}
+
 .hero-unit {
   padding: 0;
   background-color: #fcffef;
+  color: #000066;
   margin-bottom: 0;
-  /*h2 { 
-    margin: 0 0 0 -20px;
-  }   */
 }
+
 /*@import "bootstrap-responsive";*/
 /*section {
   overflow: auto;
@@ -24,10 +24,14 @@ textarea {
 }*/
 
 
-.home { 
+#home { 
   color: #000066;
   margin: 150px auto 70px;
-  }
+  h1 { 
+    margin: 0 0 0 -20px;
+    font-size: 4em;
+  }   
+}
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -38,10 +42,10 @@ textarea {
   height: 60px;
 }
 img {
-  margin-top: 230px;
   border: 12px whiteSmoke solid;
   outline: 1px #e3e3e3;
   border-radius: 5px;
+  max-width: 100%;
   }
 .poem img {margin-top: 0;}
 .hero-unit img {
@@ -80,11 +84,11 @@ h4 {
   font-size: 1.3em;
   letter-spacing: .05em;
 }
-h2 {
-  
+h2 {  
   letter-spacing: .06em;
   padding: 100px 0 50px;
   color: #000066;
+  font-weight: bold;
 }
 p {
   font-size: 1.2em;
@@ -119,6 +123,7 @@ p {
   text-align: center;
 }
 
+
 /* header */
 
 #logo {
@@ -148,15 +153,25 @@ p {
     text-indent: 5em; 
   } */    
 }
-.backdrop {
-  background-image: image-url('banner.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
+/*.jumbo {
+  margin-top: 60px;
+  img {max-width: 100%;}
+  h1.jumbotag {
+    font-family: Georgia, Garamond, "Times New Roman", serif;
+    font: bold 24px Georgia, Garamond, "Times New Roman", serif; ;
+    color: $body-bg;
+    margin-top: -100px;
+  }*/
+/*}*/
+/*.backdrop {
   h2 {
-    padding: 11em 0 1em 1em;
+    position: absolute;
+    top: 2%;
+    padding: 1em 0 1em 1em;
     color: #fcffef;
+    z-index: 2000;
   }
-}
+}*/
 h4 { font-size: 1.5em; }
 .fig {
   padding-bottom: 10px; 
@@ -174,9 +189,16 @@ blockquote {
   .home {
         margin: 50px auto;
    }
-  .backdrop
-    h2 {padding: 1em 0 1em 1em}
 }
+@media (max-width: 768px) {
+  #wrap {
+    width: 100%;
+  }
+  .span12 {
+    width: 100%;
+  }
+}
+
 @media (min-width: 1200px) {
   .span12 > .poem {
     width: 1170px;

@@ -18,11 +18,11 @@
 
   <body id="<%= params[:controller].parameterize %>_controller">
     <div id="wrap">
-      <div class="container">
+      <div class="container-fluid">
         <header>
          <%= render 'layouts/header' %>
         </header>
-      <div class="container">
+      <div class="container-fluid">
           <% flash.each do |key, value| %>
           <%= content_tag(:div, value, class: "alert alert-#{key}") %>
           <% end %>
@@ -32,7 +32,7 @@
       <div id="push"></div>
     </div>
     <div id="footer">
-     <div class="container"> 
+     <div class="container-fluid"> 
       <p class="small">&bdquo;Alles ist verloren, nur nicht das Gl&uuml;ck.&quot; &nbsp; &ldquo;All is lost but happiness.&rdquo; &nbsp; &laquo;Tout est perdu sauf le bonheur.&raquo;</p>
       <p class="muted credit"><i>Jacques Pr&eacute;vert</i> &nbsp;  &copy; <%= Time.now.year %> <a href="mailto:hillary.keel@gmail.com"> Hillary Keel</a>.com</p>
       </div>
