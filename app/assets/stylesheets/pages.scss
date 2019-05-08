@@ -15,14 +15,6 @@ body {padding-top: 0;}
 }
 
 /*@import "bootstrap-responsive";*/
-/*section {
-  overflow: auto;
-}
-
-textarea {
-  resize: vertical;
-}*/
-
 
 #hero { 
   color: #000066;
@@ -98,34 +90,24 @@ p {
 .lead {
   text-align: center;
 }
-.poem {
-  text-align: left;
-  padding-bottom: 50px;
-}
-.visual p {
-    line-height: 1.2em;
-    text-align: left;
-    //padding-left: 1em;
-}
-.spaces {
-  word-spacing: 3em;
-  //span{color: $bodyBackground}
-}
-  
-.indent {text-indent: 3em;}
-.prose {
-  padding-left: 1em;
-  margin-right: -1em;
-}
+
 .center {
   text-align: center;
 }
-
+ul.nav:first-of-type {
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
+}
 
 /* header */
+#country-select {
+  display: inline-block;
+  padding-right:20px;
 
+}
+#country-select,
 #logo {
   font-family: Copperplate, "Copperplate Gothic Light", sans-serif; 
+  display: inline-block;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
@@ -151,25 +133,7 @@ p {
     text-indent: 5em; 
   } */    
 }
-/*.jumbo {
-  margin-top: 60px;
-  img {max-width: 100%;}
-  h1.jumbotag {
-    font-family: Georgia, Garamond, "Times New Roman", serif;
-    font: bold 24px Georgia, Garamond, "Times New Roman", serif; ;
-    color: $body-bg;
-    margin-top: -100px;
-  }*/
-/*}*/
-/*.backdrop {
-  h2 {
-    position: absolute;
-    top: 2%;
-    padding: 1em 0 1em 1em;
-    color: #fcffef;
-    z-index: 2000;
-  }
-}*/
+
 h4 { font-size: 1.5em; }
 .fig {
   padding-bottom: 10px; 
@@ -183,11 +147,6 @@ blockquote {
   }
 }
 
-/*@media (max-width: 543px) {
-  .home {
-        margin: 50px auto;
-   }
-}*/
 @media (max-width: 768px) {
   #wrap {
     width: 100%;
@@ -197,19 +156,11 @@ blockquote {
   }
 }
 @media (min-width: 768px) {
-  img.margin-top { margin-top: 20%; }
+  img.mid { margin-top: 20%; }
   .pull-right {
     .margin-top { margin-top: 20% }
     img { margin-top: 20%; }
     }
   }
-/*}*/
-
-@media (min-width: 1200px) {
-  .span12 > .poem {
-    width: 1170px;
-    margin-left: 60px;
-  }
-}
 
 
