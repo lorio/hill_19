@@ -94,17 +94,14 @@ p {
 .center {
   text-align: center;
 }
-ul.nav:first-of-type {
-  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
-}
 
 /* header */
-#country-select {
-  display: inline-block;
-  padding-right:20px;
 
+.logo {
+  font-family: Copperplate, "Copperplate Gothic Light", sans-serif;
+  padding-top: 9px;
 }
-#country-select,
+
 #logo {
   font-family: Copperplate, "Copperplate Gothic Light", sans-serif; 
   display: inline-block;
