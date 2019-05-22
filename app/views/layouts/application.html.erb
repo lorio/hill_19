@@ -8,6 +8,7 @@
       <%= if content_for?(:title) then yield(:title) + ' | ' end %>
       Hillary Keel      
     </title>
+    <%= favicon_link_tag asset_path('favicon.ico') %>
     <meta name='description' content="<%= yield(:description) %>" />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
