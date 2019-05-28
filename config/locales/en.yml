@@ -38,4 +38,6 @@ en:
       hypnotherapy: "Hypnotherapy"
       languages: "Translation"
   pages:
-    home_html: "Teacher of German, English,<br>the German Fairy Tale;<br>Hypnotist, Translator,<br>Author of Poetry and<br>Prose"
+    home:
+      home_html: "Teacher of German, English,<br>the German Fairy Tale;<br>Hypnotist, Translator,<br>Author of Poetry and<br>Prose"
+      description: "This is the home of site for poet, translator, and hypnotherapist Hillary Keel"

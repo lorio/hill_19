@@ -7,6 +7,8 @@ de:
       hypnotherapy: "Hypnotherapie"
       languages: "Übersetzungsdienste"
   pages:
-    home_html: "Dozentin für Deutsch, Englisch,<br>das Deutsche Märchen:<br>Hypnotiseurin, Übersetzerin,<br>Dichterin"
+    home:
+      home_html: "Dozentin für Deutsch, Englisch,<br>das Deutsche Märchen:<br>Hypnotiseurin, Übersetzerin,<br>Dichterin"
+      description: "Hier ist die Homepage der Dichterin, Übersetzerin, und Hypnotiseurin, Hillary Keel."
 
       
