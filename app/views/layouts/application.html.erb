@@ -35,7 +35,10 @@
     <div id="footer">
      <div class="container-fluid"> 
       <p class="small">&bdquo;Alles ist verloren, nur nicht das Gl&uuml;ck.&quot; &nbsp; &ldquo;All is lost but happiness.&rdquo; &nbsp; &laquo;Tout est perdu sauf le bonheur.&raquo;</p>
-      <p class="muted credit"><i>Jacques Pr&eacute;vert</i> &nbsp;  &copy; <%= Time.now.year %> <a href="mailto:hillary.keel@gmail.com"> Hillary Keel</a>.com</p>
+      <p class="muted credit"><i>Jacques Pr&eacute;vert</i> &nbsp;  &copy; <%= Time.now.year %> 
+        <a href="mailto:hillary.keel@gmail.com"> Hillary Keel</a>.com
+        <%= link_to 'Privacy', privacy_path %>
+        </p>
       </div>
     </div>
   </body>

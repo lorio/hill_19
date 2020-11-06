@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about'
   get 'languages' => 'pages#languages'
   get 'hypnotherapy' => 'pages#hypnotherapy'
+  get 'privacy' => 'pages#privacy'
   get "writing" => redirect('http://writing.hillarykeel.com')
   scope :locale do
     resources :pages

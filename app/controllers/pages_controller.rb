@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def hypnotherapy
   end
+
+  def privacy
+  end
 end
